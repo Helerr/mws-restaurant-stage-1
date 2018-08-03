@@ -1,6 +1,5 @@
-# Mobile Web Specialist Certification Course
----
-#### Restaurant Reviews App Page
+
+## Restaurant Reviews App Page
 
 ## Description
 
