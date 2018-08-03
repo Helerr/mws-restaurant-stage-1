@@ -209,3 +209,14 @@ addMarkersToMap = (restaurants = self.restaurants) => {
   });
 } */
 
+// Installing a Service Worker
+if ('serviceWorker' in navigator) {
+  // Register a service worker hosted at the root of the site using the default scope.
+  navigator.serviceWorker.register('/sw.js').then(function(registration) {
+    console.log('SW registration succeeded:', registration);
+  }).catch(function(error) {
+    console.log('SW registration failed:', error);
+  });
+} else {
+  console.log('Service workers are not supported in your browser');
+}
