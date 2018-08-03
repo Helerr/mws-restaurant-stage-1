@@ -299,9 +299,3 @@ nav h1 a {
     height: auto;
   }
 }
-
-
-/* ====================== Overwrite ====================== */
-.leaflet-container a {
-  color: #000 !important
-}
